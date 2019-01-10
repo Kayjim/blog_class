@@ -6,8 +6,8 @@
 </p>
 
 <p>
-  <strong>Author:</strong>
-  <%= @post.author %>
+    <!-- instead of @post.author -->
+    by <%= @post.user.email %>
 </p>
 
 <p>
